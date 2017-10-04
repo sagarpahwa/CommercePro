@@ -4,6 +4,10 @@
 3. The apk requires the Camera and Internet Connectivity permission to install.
 4. The app should be tested in PB Network only.
 
+### Steps to install
+
+Download CommercePro.apk and install it in a SenPro device or any other android device with android version 6.0 (Android image on sendPro is 6.0 version) or above
+
 ## Sample Data for testing
 
 ```
