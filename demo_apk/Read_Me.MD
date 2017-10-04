@@ -10,10 +10,12 @@
 From 
 Address: 37 executive Dr 
 Pincode: 06810
+Default Country is USA 
 
 To 
 Address: Pitney Bowes, Logix Cyber Park
 Pincode: 201307
+Country: India
 
 Parcel Details
 Price   any numeric value
