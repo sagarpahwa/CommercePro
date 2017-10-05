@@ -103,8 +103,12 @@ public class CommodityDetail extends Fragment {
             public void onClick(View v) {
                 if(!(product.equals("Select Product")) &&
                         !(productDescriptionTextField.getText().toString().isEmpty())){
-                    productDescriptionText = productDescriptionTextField.getText().toString();
-                    fetchResult();
+                    if(byteArray != null) {
+                        productDescriptionText = productDescriptionTextField.getText().toString();
+                        fetchResult();
+                    }else {
+                        Toast.makeText(getActivity(), "Please capture image to proceed.", Toast.LENGTH_SHORT).show();
+                    }
                 }else{
                     Toast.makeText(getActivity(), "All fields are mendatory.", Toast.LENGTH_SHORT).show();
                 }
