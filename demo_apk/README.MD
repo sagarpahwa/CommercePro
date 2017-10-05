@@ -6,7 +6,11 @@
 
 ### Steps to install
 
-Download CommercePro.apk and install it in a SenPro device or any other android device with android version 6.0 (Android image on sendPro is 6.0 version) or above
+Download CommercePro.apk and install it in a SendPro device or any other Android device with android version 6.0 (Android image on SendPro is 6.0 version) or above
+1. Open your device's ```Settings``` app.
+2. Scroll down and tap ```Security```. It's in ```Personal``` section of the menu.
+3. Slide ```Unknown Sources``` to ```ON```
+4. Tap ```Ok``` when asked by Pop Up.
 
 ### Sample Data for testing
 
