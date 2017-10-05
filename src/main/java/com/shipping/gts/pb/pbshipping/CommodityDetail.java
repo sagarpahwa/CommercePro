@@ -253,7 +253,7 @@ public class CommodityDetail extends Fragment {
     }
 
     private void testgethscode() throws IOException, XmlPullParserException {
-        String gethsurl = "http://www.dutycalculator.com/api2.1/2bac6dba1354599a/get-hscode?";
+        String gethsurl = "http://www.dutycalculator.com/api2.1/sandbox/{API-KEY}/get-hscode?";
         List<NameValuePair> hscodeParams = new LinkedList<>();
         hscodeParams.add(new BasicNameValuePair("to", toCountryCode));
         acc_coo_getHsCode(product,productDescriptionText);
